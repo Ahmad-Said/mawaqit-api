@@ -15,4 +15,10 @@ setup(
         'redis==5.0.1',
         'python-dotenv==1.0.1',
     ],
+    classifiers=[
+        'Programming Language :: Python :: 3',
+        'License :: OSI Approved :: MIT License',
+        'Operating System :: OS Independent',
+    ],
+    python_requires='>=3.6',
 )
