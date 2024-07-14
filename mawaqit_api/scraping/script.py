@@ -1,7 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 from fastapi import HTTPException
-from config.redisClient import redisClient
+from mawaqit_api.config.redisClient import redisClient
 from redis.exceptions import RedisError
 
 

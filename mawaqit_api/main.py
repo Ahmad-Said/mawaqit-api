@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from controllers.mawaqitController import router as mawaqitRouter
+from mawaqit_api.controllers.mawaqitController import router as mawaqitRouter
 
 def create_app() -> FastAPI:
     app = FastAPI(title='Mawaqit Api', debug=False, read_root="/")
